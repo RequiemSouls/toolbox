@@ -28,7 +28,6 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'sjl/gundo.vim'
 Plugin 'gcmt/wildfire.vim'
 Plugin 'spiiph/vim-space'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'rhysd/vim-clang-format'
 
 Plugin 'a.vim'
@@ -41,7 +40,7 @@ filetype plugin indent on    " required
 
 au GUIEnter * simalt ~x
 
-set guifont=Microsoft\ YaHei\ Mono:h12
+set guifont=Microsoft\ YaHei\ Mono:h11
 set guioptions-=T
 set guioptions-=r
 set guioptions-=L
@@ -60,8 +59,6 @@ let g:bookmark_sign='#'
 let g:NERDTreeWinSize=50
 let g:NERDTreeDirArrowExpandable='>'
 let g:NERDTreeDirArrowCollapsible='|'
-
-let g:ycm_confirm_extra_conf=0
 
 syntax enable
 colorscheme molokai
