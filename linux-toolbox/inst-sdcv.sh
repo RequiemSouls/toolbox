@@ -39,9 +39,9 @@ else
 fi
 echo "*******************************"
 echo "download dict...."
-# download http://download.huzheng.org/zh_CN/stardict-oxford-gb-2.4.2.tar.bz2
-# download http://download.huzheng.org/zh_CN/stardict-langdao-ec-gb-2.4.2.tar.bz2
+download http://download.huzheng.org/zh_CN/stardict-oxford-gb-2.4.2.tar.bz2
+download http://download.huzheng.org/zh_CN/stardict-langdao-ec-gb-2.4.2.tar.bz2
 download http://download.huzheng.org/zh_CN/stardict-langdao-ce-gb-2.4.2.tar.bz2
-# download http://download.huzheng.org/zh_CN/stardict-DrEye4in1-2.4.2.tar.bz2
-# download http://download.huzheng.org/zh_CN/stardict-21shijishuangyukejicidian-2.4.2.tar.bz2
+download http://download.huzheng.org/zh_CN/stardict-DrEye4in1-2.4.2.tar.bz2
+download http://download.huzheng.org/zh_CN/stardict-21shijishuangyukejicidian-2.4.2.tar.bz2
 echo "install over."
