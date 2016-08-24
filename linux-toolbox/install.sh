@@ -1,6 +1,6 @@
 #!/bin/bash
 function installPercol() {
-    if [ -d "~/bin" ]; then
+    if [ ! -d "~/bin" ]; then
         mkdir ~/bin
     fi
     cd ~/bin
@@ -11,10 +11,11 @@ function installPercol() {
         curl -LkO https://github.com/mooz/percol/archive/master.zip
     fi
     echo "======================== download over =========================="
-    unzip ./master.zip -d ./percol
+    unzip ./master.zip
+    mv ./percol-master ./percol
     rm -rf ./master.zip
     echo "======================== extract file over ======================"
-    if [ ! -f "./percol.py" ]; then
+    if [ -f "./percol.py" ]; then
         rm -rf ./percol.py
     fi
     ln -s ./percol/bin/percol ./percol.py
